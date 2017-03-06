@@ -42,7 +42,7 @@ defmodule Nerves.InterimWiFi.Mixfile do
       {:elixir_make, "~> 0.3"},
       {:ex_doc, "~> 0.11", only: :dev},
       {:nerves_network_interface, "~> 0.4.0"},
-      {:nerves_wpa_supplicant, "~> 0.3.0"}
+      {:nerves_wpa_supplicant, github: "brucepom/wpa_supplicant.ex"}
     ]
   end
 end
